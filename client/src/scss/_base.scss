@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-family: Segoe UI,sans-serif;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}

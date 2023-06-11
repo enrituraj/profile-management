@@ -1,0 +1,36 @@
+@import './../../scss/_variable.scss';
+
+.container{
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 2px 0 rgba(0,0,0,.05);
+    background-color: $white-color;
+}
+
+.header-content{
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    padding: 2rem;
+    min-height: 32rem;
+    gap: 4rem;
+    align-items: center;
+    justify-content: space-between;        
+    .text-content{
+        flex: 1;
+        h1{
+            font-size: 3rem;
+            line-height: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: bolder;
+            color: $seconday-color;
+        }
+        p{
+            font-size: 1.2rem;
+            max-width: 30rem;
+            color: $gray-color;
+            margin-bottom: 1.5rem;
+        }
+    }
+    .img-content{
+        flex: 1;
+    }
+}
